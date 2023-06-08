@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block body %}
+<br>
+<br>
+
+
+
+<form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+   Are you  want to delete  Movie...?
+
+    <input type="submit" value="delete">
+</form>
+
+{% endblock %}

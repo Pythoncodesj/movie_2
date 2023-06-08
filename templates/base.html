@@ -1,0 +1,24 @@
+{% load static %}
+<html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--<link rel="stylesheet" href="{% static 'myapp/style.css' %}">
+
+    <-- Image and text -->
+
+   <nav class="navbar navbar-dark bg-dark">
+     <a class="navbar-brand" href="#">
+    Movie App
+  </a>
+       <div class="text-center">
+       <a href="{% url 'add'  %}" class="btn btn-dark">Add Movie</a>
+           </div>
+    </nav>
+</head>
+
+<body>
+{% block body %}
+{% endblock %}
+</body>
+
+</html>
